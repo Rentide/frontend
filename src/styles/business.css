@@ -1,0 +1,23 @@
+.business-section {
+    padding: 100px 25px 50px 25px;
+    margin: auto;
+    text-align: center;
+}
+
+.business-section .title {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.business-section p.caption {
+    padding: 0 35%;
+    font-size: 1em;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .business-section p.caption {
+        padding: 0 2em !important;
+    }
+}

@@ -1,0 +1,69 @@
+.navbar {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding: 0 70px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 10px white;
+    background-color: white;
+    z-index: 999999;
+}
+
+.navbar * {
+    font-weight: 500;
+}
+
+.navbar .brand {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.navbar .center.menus {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .center.menus span {
+    font-size: 16px;
+    padding: 0 2em;
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.navbar .center.menus span a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar .center.menus span.active,
+.navbar .center.menus span:hover {
+    opacity: 1;
+    font-weight: 500;
+    color: black;
+}
+
+.navbar .right.buttons span {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.navbar .right.buttons span button {
+    padding: 5px 0;
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+}
+
+.navbar .right.buttons span button.active {
+    padding: 10px 25px;
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+}
