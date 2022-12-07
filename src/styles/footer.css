@@ -215,6 +215,10 @@ footer hr {
 }
 
 @media (max-width: 600px) {
+    footer {
+        width: 100% !important;
+        margin: 2em 0em !important;
+    }
     .footer-distributed .footer-center .footer-center-wrapper div.newsletter {
         margin-right: 0px;
     }
