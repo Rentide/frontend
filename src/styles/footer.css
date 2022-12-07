@@ -209,7 +209,9 @@ footer ul {
     .footer-distributed .footer-center .footer-center-wrapper div.newsletter {
         margin-right: 0px;
     }
-    .footer-icons {
-        margin-left: 20%;
+    .footer-distributed .footer-icons {
+        justify-content: center;
+        align-items: center;
+        align-content: center;
     }
 }
