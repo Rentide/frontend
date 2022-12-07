@@ -10,7 +10,7 @@ Steps to run the app
 2. cd Rentide
 ```
 
-Install dependencies
+###Install dependencies
 ```
 3. npm i
 ```
